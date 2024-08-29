@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A78AEA3F2C810E5F009107F4 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78AEA3E2C810E5F009107F4 /* Memo.swift */; };
 		A78CA4942C7E6ACA00CFD624 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CA4932C7E6ACA00CFD624 /* AppDelegate.swift */; };
 		A78CA4962C7E6ACA00CFD624 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CA4952C7E6ACA00CFD624 /* SceneDelegate.swift */; };
 		A78CA49B2C7E6ACA00CFD624 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A78CA49A2C7E6ACA00CFD624 /* Base */; };
 		A78CA49E2C7E6ACA00CFD624 /* MemoApp_SamBurton.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A78CA49C2C7E6ACA00CFD624 /* MemoApp_SamBurton.xcdatamodeld */; };
 		A78CA4A02C7E6ACB00CFD624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A78CA49F2C7E6ACB00CFD624 /* Assets.xcassets */; };
 		A78CA4A32C7E6ACB00CFD624 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A78CA4A22C7E6ACB00CFD624 /* Base */; };
+		A7EED3ED2C810B79004C5AA2 /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EED3EC2C810B79004C5AA2 /* MemoListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A78AEA3E2C810E5F009107F4 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		A78CA4902C7E6ACA00CFD624 /* MemoApp_SamBurton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoApp_SamBurton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78CA4932C7E6ACA00CFD624 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A78CA4952C7E6ACA00CFD624 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		A78CA49F2C7E6ACB00CFD624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A78CA4A22C7E6ACB00CFD624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A78CA4A42C7E6ACB00CFD624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7EED3EC2C810B79004C5AA2 /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				A78CA4932C7E6ACA00CFD624 /* AppDelegate.swift */,
 				A78CA4952C7E6ACA00CFD624 /* SceneDelegate.swift */,
+				A7EED3EC2C810B79004C5AA2 /* MemoListTableViewController.swift */,
 				A78CA4992C7E6ACA00CFD624 /* Main.storyboard */,
 				A78CA49F2C7E6ACB00CFD624 /* Assets.xcassets */,
 				A78CA4A12C7E6ACB00CFD624 /* LaunchScreen.storyboard */,
 				A78CA4A42C7E6ACB00CFD624 /* Info.plist */,
 				A78CA49C2C7E6ACA00CFD624 /* MemoApp_SamBurton.xcdatamodeld */,
+				A78AEA3E2C810E5F009107F4 /* Memo.swift */,
 			);
 			path = MemoApp_SamBurton;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				A78CA4942C7E6ACA00CFD624 /* AppDelegate.swift in Sources */,
 				A78CA4962C7E6ACA00CFD624 /* SceneDelegate.swift in Sources */,
 				A78CA49E2C7E6ACA00CFD624 /* MemoApp_SamBurton.xcdatamodeld in Sources */,
+				A7EED3ED2C810B79004C5AA2 /* MemoListTableViewController.swift in Sources */,
+				A78AEA3F2C810E5F009107F4 /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
