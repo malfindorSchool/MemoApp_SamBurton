@@ -9,6 +9,16 @@ import UIKit
 
 class MemoListTableViewController: UITableViewController {
 
+    let formatter : DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "MM-dd-yyyy HH:mm:ss"
+        formatter.dateStyle = .long
+        formatter.timeStyle = .long
+        formatter.locale = Locale(identifier: "en_US")
+        
+        return formatter
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,7 +33,7 @@ class MemoListTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -36,7 +46,7 @@ class MemoListTableViewController: UITableViewController {
 
         let target = Memo.dummyMemoList[indexPath.row]
         cell.textLabel?.text = target.content
-        cell.detailTextLabel?.text = target.insertDate.description
+        cell.detailTextLabel?.text = formatter.string(from:target.insertDate)
 
         return cell
     }
